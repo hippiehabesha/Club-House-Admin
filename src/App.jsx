@@ -1,6 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.css";
+import LoginPage from "./loginPage";
 
-function App() {}
+function App() {
+  return <LoginPage />;
+}
 
 export default App;
